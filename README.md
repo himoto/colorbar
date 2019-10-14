@@ -9,12 +9,14 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 
 plt.rcParams['font.size'] = 48
+plt.rcParams['font.family'] = 'Arial'
+plt.rcParams['axes.linewidth'] = 1
+
 fig = plt.figure(figsize=(1, 9))
 ax1 = fig.add_axes([0, 0, 1, 1])
 
 cmap = mpl.cm.viridis
-norm = mpl.colors.Normalize(vmin=0,
-                            vmax=12)
+norm = mpl.colors.Normalize(vmin=0, vmax=12)
 
 cb1 = mpl.colorbar.ColorbarBase(
     ax1, cmap=cmap,
