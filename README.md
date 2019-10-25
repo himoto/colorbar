@@ -1,8 +1,6 @@
 # colorbar
-![colorbar_h](images/colorbar_h.png)
 
 ## Vertical orientation
-<img align="right" src="images/colorbar_v.png" width=20%>
 
 ```python
 import matplotlib.pyplot as plt
